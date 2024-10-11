@@ -1,4 +1,4 @@
-view site: https://durgaprasad09102003.github.io/Digital-Pulse-OTT-movie-system/movie-system/html/Home.html
+view site: https://durgaprasad09102003.github.io/DigitalPulse-OTT-MovieSystem/movie-system/html/Home.html
 
 Digital Pulse - OTT Movie System
 
