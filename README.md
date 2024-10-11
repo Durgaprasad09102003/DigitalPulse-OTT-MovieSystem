@@ -1,6 +1,7 @@
 view site: https://durgaprasad09102003.github.io/Digital-Pulse-OTT-movie-system/movie-system/html/Home.html
 
 Digital Pulse - OTT Movie System
+
 Digital Pulse is a responsive, web-based OTT (Over-the-Top) Movie Streaming System designed to allow users to browse and explore a wide range of movies and shows by genre, trending status, release dates, and popularity. The layout features a well-organized footer, easy navigation, and social media connections, all built with HTML, CSS, and JavaScript.
 
 Table of Contents
