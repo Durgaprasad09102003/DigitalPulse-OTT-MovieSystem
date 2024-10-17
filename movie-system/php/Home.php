@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIGITAL PULSE</title>
+    <link rel="icon" href="../media/home-bg.webp" />
+    <link rel="stylesheet" href="../css/App.css" />
+    <link rel="stylesheet" href="../css/Home.css" />
+</head>
+<body>
+    <div  class="container d-f jc-c ai-c fd-c zi-1">
+        <div class="MainBody d-f fd-c">
+            <header>
+                <div class="logo">
+                    <img src="../media/logo.jpg" alt="StreamVibe Logo">
+                    <h1>DIGITAL PULSE</h1>
+                </div>
+                <nav class="menu">
+                    <button class="menu-toggle d-f ai-c jc-c" id="menuToggle">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </button>
+                </nav>
+                <div class="d-f ai-c jc-c fd-r hammenu" id="menu">
+                    <a href="#home"><button class="activebtn">Home</button></a>
+                    <a href="#movies"><button>Movies</button></a>
+                    <a href="#series"><button>Series</button></a>
+                    <a href="./Login.php"><button>Login</button></a>
+                    <a href="./Signup.php"><button>Sign Up</button></a>
+
+                </div>
+            </header>
+
+
+        
+            
+            <main>
+                <div class="hero">
+                    <div class="overlay">
+                        <div class="play-icon">
+                            <i class="fas fa-play-circle"></i>
+                        </div>
+                        <h2>The Best Streaming Experience</h2>
+                        <p>DigitalPulse is the best streaming experience for watching your favorite movies and shows on demand, anytime, anywhere.</p>
+                        <a href="#" class="cta-button">Start Watching Now</a>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <section class="streaming-devices d-f fd-c ai-c">
+            <hr  class="line1">
+
+            <h2>We Provide you streaming experience across various devices.</h2>
+            <p>With DigitalPulse, you can enjoy your favorite movies and TV Shows anytime, anywhere.</p>
+    
+            <div class="device-card d-f ai-s fd-c">
+                <div class="d-f fd-r ai-c ga-8">
+                    <img src="../media/smartphone.png" alt="Smartphone">
+                    <h3>Smartphones</h3>
+                </div>
+                <p>DigitalPulse is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store.</p>
+            </div>
+    
+            <div class="device-card d-f ai-s fd-c">
+                <div class="d-f fd-r ai-c ga-8">
+                    <img src="../media/tablet.png" alt="Tablet">
+                    <h3>Tablets</h3>
+                </div>
+                <p>DigitalPulse is optimized for both Android and iOS tablets. Download our app from the Google Play Store or the Apple App Store.</p>
+            </div>
+    
+            <div class="device-card d-f ai-s fd-c">
+                <div class="d-f fd-r ai-c ga-8">
+                    <img src="../media/smart-tv.png" alt="Smart TV">
+                    <h3>Smart TVs</h3>
+                </div>
+                <p>DigitalPulse is optimized for both Android and iOS Smart TVs. Download our app from the Google Play Store or the Apple App Store.</p>
+            </div>
+    
+            <div class="device-card d-f ai-s fd-c">
+                <div class="d-f fd-r ai-c ga-8">
+                    <img src="../media/laptop.png" alt="Laptop">
+                    <h3>Laptops</h3>
+                </div>
+                <p>DigitalPulse is optimized for both Android and iOS laptops. Download our app from the Google Play Store or the Apple App Store.</p>
+            </div>
+    
+            <div class="device-card d-f ai-s fd-c">
+                <div class="d-f fd-r ai-c ga-8">
+                    <img src="../media/gaming.png" alt="Gaming Console">
+                    <h3>Gaming Consoles</h3>
+                </div>
+                <p>DigitalPulse is optimized for both Android and iOS gaming consoles. Download our app from the Google Play Store or the Apple App Store.</p>
+            </div>
+    
+            <div class="device-card d-f ai-s fd-c">
+                <div class="d-f fd-r ai-c ga-8">
+                    <img src="../media/vr.png" alt="VR Headset">
+                    <h3>VR Headsets</h3>
+                </div>
+                <p>DigitalPulse is optimized for both Android and iOS VR headsets. Download our app from the Google Play Store or the Apple App Store.</p>
+            </div>
+        </section>
+
+
+        
+        <section class="pricing-section">
+            <h2>Choose the plan that's right for you</h2>
+            <p>Join DigitalPulse and select from our flexible subscription options tailored to suit your viewing preferences. Get ready for non-stop entertainment!</p>
+            
+            <div class="pricing-toggle">
+                <button id="monthly" class="active">Monthly</button>
+                <button id="yearly">Yearly</button>
+            </div>
+
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Basic Plan</h3>
+                    <p>Enjoy an extensive library of movies and shows, featuring a range of content, including recently released titles.</p>
+                    <div class="price">$9.99 <span>/month</span></div>
+                    <div class="btn-group">
+                        <button class="trial-btn">Start Free Trial</button>
+                        <button class="choose-btn">Choose Plan</button>
+                    </div>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Standard Plan</h3>
+                    <p>Access to a wider selection of movies and shows, including most new releases and exclusive content!</p>
+                    <div class="price">$12.99 <span>/month</span></div>
+                    <div class="btn-group">
+                        <button class="trial-btn">Start Free Trial</button>
+                        <button class="choose-btn">Choose Plan</button>
+                    </div>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Premium Plan</h3>
+                    <p>Access to the widest selection of movies and shows, including all new releases and Offline Viewing.</p>
+                    <div class="price">$14.99 <span>/month</span></div>
+                    <div class="btn-group">
+                        <button class="trial-btn">Start Free Trial</button>
+                        <button class="choose-btn">Choose Plan</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-container">
+              <div class="footer-section">
+                <h4>Home</h4>
+                <ul>
+                  <li><a href="#">Categories</a></li>
+                  <li><a href="#">Devices</a></li>
+                  <li><a href="#">Pricing</a></li>
+                  <li><a href="#">FAQ</a></li>
+                </ul>
+              </div>
+        
+              <div class="footer-section">
+                <h4>Movies</h4>
+                <ul>
+                  <li><a href="#">Genres</a></li>
+                  <li><a href="#">Trending</a></li>
+                  <li><a href="#">New Release</a></li>
+                  <li><a href="#">Popular</a></li>
+                </ul>
+              </div>
+        
+              <div class="footer-section">
+                <h4>Shows</h4>
+                <ul>
+                  <li><a href="#">Genres</a></li>
+                  <li><a href="#">Trending</a></li>
+                  <li><a href="#">New Release</a></li>
+                  <li><a href="#">Popular</a></li>
+                </ul>
+              </div>
+        
+              <div class="footer-section">
+                <h4>Support</h4>
+                <ul>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+        
+              <div class="footer-section">
+                <h4>Subscription</h4>
+                <ul>
+                  <li><a href="#">Plans</a></li>
+                  <li><a href="#">Features</a></li>
+                </ul>
+              </div>
+        
+              <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="social-icons d-f fd-r ai-c">
+                  <a href="#"><img src="../media/facebook.png" alt="Facebook"></a>
+                  <a href="#"><img src="../media/instagram.png" alt="Instagram"></a>
+                  <a href="#"><img src="../media/youtube.png" alt="Youtube"></a>
+                </div>
+              </div>
+            </div>
+        
+            <div class="footer-bottom">
+              <p>&copy; 2024 Digital Pulse</p>
+              <ul class="footer-links">
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+              </ul>
+            </div>
+          </footer>
+
+
+
+    </div>
+
+    <script src="../js/Home.js"></script>
+</body>
+</html>
