@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    position: relative;
+    flex: 1;
+    background-image: url('../media/home-bg.webp'); 
+    background-size: calc(100vw - 25px);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+  /*MainBody Part*/
+  .container{
+    max-width: 100vw;
+    height: max-content;
+  }
+
+
+header {
+    width: 480px;
+    height:max-content;
+    padding: 1rem;
+    background-color: #f40612;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo h1{
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+.logo img {
+    width: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.hammenu{
+    gap: 25px;
+    position: relative;
+    right: 25px;
+}
+
+.hammenu a button{
+  width: 75px;
+  height: 25px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 15px;
+  border: none;
+  cursor:pointer;
+}
+
+.hammenu a button:hover{
+  background-color: #151515;
+}
+
+/*MainBody Ended*/
+
+
+/* Section part */
+
+.LoginContent{
+    width: 480px;
+    height: max-content;
+    background-color: #111;
+    border-radius: 0px 0px 15px 15px ;
+    padding: 1rem;
+    position: relative;
+
+}
+
+.LoginContent h1{
+    font-size: 44px;
+    color: #fff;
+}
+
+.LoginContent p{
+    font-size: 12px;
+    color: #fff;
+    position: relative;
+    left: 340px;
+    cursor: pointer;
+}
+
+.LoginContent p a{
+    color:inherit;
+    text-decoration: underline;
+}
+
+form {
+    box-sizing: border-box;
+}
+
+form h4 {
+    padding: 15px;
+}
+
+label, input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+textarea {
+    min-width: 200px;
+    max-width: 200px;
+    height: 45px;
+    min-height: 45px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+#category {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 25px;
+    padding: 0px;
+    place-items: middle;
+    border:0;
+}
+
+input[type="checkbox"] {
+    min-height: auto;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle; 
+    padding: 0px;
+    margin: 0px;
+    border:0;
+    cursor: pointer;
+    
+}
+
+.checkbox-label {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 0px;
+    margin: -12px 0;
+}
+
+input[type="checkbox"]:checked {
+    accent-color: #f40612;
+}
+
+input[type="checkbox"]:checked + label {
+    color: #f40612;
+}
