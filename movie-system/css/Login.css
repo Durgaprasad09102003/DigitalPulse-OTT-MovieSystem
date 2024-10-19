@@ -183,3 +183,19 @@ input[type="checkbox"]:checked {
 input[type="checkbox"]:checked + label {
     color: #f40612;
 }
+
+
+@media screen and (max-width: 520px){
+    header, .LoginContent {
+        width: 100vw;
+    }
+
+    .LoginContent p{
+        position: absolute;
+        left: 75%;
+        top: 50px;
+        
+        white-space: nowrap;
+    }
+
+}
