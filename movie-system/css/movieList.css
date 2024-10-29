@@ -1,0 +1,53 @@
+.Logout{
+    width: 100px;
+    height: 30px;
+    background-color: #111;
+    color: #ffffff;
+    border-radius: 15px;
+    border: none;
+    cursor:pointer;
+}
+
+section {
+    width: 100vw;
+    height: max-content;
+    padding: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    gap: 50px;
+}
+
+section #name {
+    position: absolute;
+    right: 8%;
+    top: 100px;
+    color: #fff;
+    display: flex;
+    gap: 10px;
+}
+
+section p span {
+    background-color: green;
+    font-weight: bold;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+
+.shows{
+    display: grid;
+    width: 100%;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    place-items: center;
+}
+
+.shows img{
+    width: 225px;
+    height: 300px;
+    cursor: pointer;
+    background-color: #ccc;
+}
